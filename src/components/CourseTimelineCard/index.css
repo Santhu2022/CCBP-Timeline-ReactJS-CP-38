@@ -1,0 +1,67 @@
+.card-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card-heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .card-heading {
+    font-size: 22px;
+  }
+}
+.card-duration-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+}
+.card-duration {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 600;
+  margin: 0;
+}
+.card-description {
+  margin-top: 0;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 400;
+
+}
+@media screen and (min-width: 768px){
+    .card-description{
+        font-size: 16px;
+    }
+}
+
+.tags-list {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tag-item {
+  background-color: #e2e8f0;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+.tag-name {
+  align-items: center;
+  margin: 0;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 12px;
+}
